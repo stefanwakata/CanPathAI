@@ -1,0 +1,9 @@
+__pycache__
+*.pyc
+.venv
+.pytest_cache
+.ruff_cache
+tests
+dev.db
+chroma_data
+data/ragas_results.json

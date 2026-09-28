@@ -1,0 +1,121 @@
+noc_code,noc_title,province,wage_low,wage_median,wage_high,reference_year
+21231,Software engineers and designers,Ontario,40.38,54.52,75.73,2025
+21231,Software engineers and designers,Quebec,36.54,49.32,68.51,2025
+21231,Software engineers and designers,British Columbia,40.0,54.0,75.0,2025
+21231,Software engineers and designers,Alberta,41.54,56.07,77.89,2025
+21231,Software engineers and designers,Manitoba,34.61,46.73,64.91,2025
+21231,Software engineers and designers,Saskatchewan,35.77,48.29,67.07,2025
+21231,Software engineers and designers,Nova Scotia,33.84,45.69,63.47,2025
+21231,Software engineers and designers,New Brunswick,33.46,45.17,62.74,2025
+21231,Software engineers and designers,Newfoundland and Labrador,35.38,47.77,66.35,2025
+21231,Software engineers and designers,Prince Edward Island,32.69,44.13,61.3,2025
+21232,Software developers and programmers,Ontario,35.33,48.46,68.15,2025
+21232,Software developers and programmers,Quebec,31.97,43.84,61.66,2025
+21232,Software developers and programmers,British Columbia,35.0,48.0,67.5,2025
+21232,Software developers and programmers,Alberta,36.34,49.84,70.09,2025
+21232,Software developers and programmers,Manitoba,30.29,41.53,58.41,2025
+21232,Software developers and programmers,Saskatchewan,31.29,42.92,60.36,2025
+21232,Software developers and programmers,Nova Scotia,29.61,40.61,57.11,2025
+21232,Software developers and programmers,New Brunswick,29.28,40.15,56.46,2025
+21232,Software developers and programmers,Newfoundland and Labrador,30.96,42.46,59.71,2025
+21232,Software developers and programmers,Prince Edward Island,28.6,39.23,55.17,2025
+31301,Registered nurses and registered psychiatric nurses,Ontario,36.75,46.73,58.8,2025
+31301,Registered nurses and registered psychiatric nurses,Quebec,33.25,42.27,53.2,2025
+31301,Registered nurses and registered psychiatric nurses,British Columbia,36.4,46.28,58.24,2025
+31301,Registered nurses and registered psychiatric nurses,Alberta,37.8,48.06,60.48,2025
+31301,Registered nurses and registered psychiatric nurses,Manitoba,31.5,40.05,50.4,2025
+31301,Registered nurses and registered psychiatric nurses,Saskatchewan,32.55,41.39,52.08,2025
+31301,Registered nurses and registered psychiatric nurses,Nova Scotia,30.8,39.16,49.28,2025
+31301,Registered nurses and registered psychiatric nurses,New Brunswick,30.45,38.71,48.72,2025
+31301,Registered nurses and registered psychiatric nurses,Newfoundland and Labrador,32.2,40.94,51.52,2025
+31301,Registered nurses and registered psychiatric nurses,Prince Edward Island,29.75,37.82,47.6,2025
+21311,Computer and information systems managers,Ontario,45.43,60.57,82.79,2025
+21311,Computer and information systems managers,Quebec,41.11,54.81,74.91,2025
+21311,Computer and information systems managers,British Columbia,45.0,60.0,82.0,2025
+21311,Computer and information systems managers,Alberta,46.73,62.31,85.16,2025
+21311,Computer and information systems managers,Manitoba,38.94,51.92,70.97,2025
+21311,Computer and information systems managers,Saskatchewan,40.24,53.65,73.33,2025
+21311,Computer and information systems managers,Nova Scotia,38.08,50.77,69.39,2025
+21311,Computer and information systems managers,New Brunswick,37.64,50.19,68.6,2025
+21311,Computer and information systems managers,Newfoundland and Labrador,39.81,53.07,72.54,2025
+21311,Computer and information systems managers,Prince Edward Island,36.78,49.04,67.02,2025
+62020,Food service supervisors,Ontario,17.38,21.0,28.35,2025
+62020,Food service supervisors,Quebec,15.72,19.0,25.65,2025
+62020,Food service supervisors,British Columbia,17.21,20.8,28.08,2025
+62020,Food service supervisors,Alberta,17.87,21.6,29.16,2025
+62020,Food service supervisors,Manitoba,14.9,18.0,24.3,2025
+62020,Food service supervisors,Saskatchewan,15.39,18.6,25.11,2025
+62020,Food service supervisors,Nova Scotia,14.56,17.6,23.76,2025
+62020,Food service supervisors,New Brunswick,14.4,17.4,23.49,2025
+62020,Food service supervisors,Newfoundland and Labrador,15.23,18.4,24.84,2025
+62020,Food service supervisors,Prince Edward Island,14.07,17.0,22.95,2025
+73300,Transport truck drivers,Ontario,18.9,26.25,35.33,2025
+73300,Transport truck drivers,Quebec,17.1,23.75,31.97,2025
+73300,Transport truck drivers,British Columbia,18.72,26.0,35.0,2025
+73300,Transport truck drivers,Alberta,19.44,27.0,36.34,2025
+73300,Transport truck drivers,Manitoba,16.2,22.5,30.29,2025
+73300,Transport truck drivers,Saskatchewan,16.74,23.25,31.29,2025
+73300,Transport truck drivers,Nova Scotia,15.84,22.0,29.61,2025
+73300,Transport truck drivers,New Brunswick,15.66,21.75,29.28,2025
+73300,Transport truck drivers,Newfoundland and Labrador,16.56,23.0,30.96,2025
+73300,Transport truck drivers,Prince Edward Island,15.3,21.25,28.6,2025
+41200,University professors and lecturers,Ontario,37.7,53.84,75.38,2025
+41200,University professors and lecturers,Quebec,34.1,48.72,68.2,2025
+41200,University professors and lecturers,British Columbia,37.34,53.33,74.66,2025
+41200,University professors and lecturers,Alberta,38.77,55.38,77.53,2025
+41200,University professors and lecturers,Manitoba,32.31,46.15,64.61,2025
+41200,University professors and lecturers,Saskatchewan,33.39,47.69,66.76,2025
+41200,University professors and lecturers,Nova Scotia,31.59,45.13,63.18,2025
+41200,University professors and lecturers,New Brunswick,31.23,44.61,62.46,2025
+41200,University professors and lecturers,Newfoundland and Labrador,33.03,47.18,66.05,2025
+41200,University professors and lecturers,Prince Edward Island,30.51,43.59,61.02,2025
+11100,Financial auditors and accountants,Ontario,30.29,43.42,65.62,2025
+11100,Financial auditors and accountants,Quebec,27.41,39.28,59.38,2025
+11100,Financial auditors and accountants,British Columbia,30.0,43.0,65.0,2025
+11100,Financial auditors and accountants,Alberta,31.16,44.66,67.5,2025
+11100,Financial auditors and accountants,Manitoba,25.97,37.22,56.25,2025
+11100,Financial auditors and accountants,Saskatchewan,26.83,38.46,58.12,2025
+11100,Financial auditors and accountants,Nova Scotia,25.39,36.39,55.0,2025
+11100,Financial auditors and accountants,New Brunswick,25.1,35.97,54.38,2025
+11100,Financial auditors and accountants,Newfoundland and Labrador,26.54,38.04,57.5,2025
+11100,Financial auditors and accountants,Prince Edward Island,24.52,35.15,53.12,2025
+21301,Mechanical engineers,Ontario,32.81,45.43,63.11,2025
+21301,Mechanical engineers,Quebec,29.69,41.11,57.09,2025
+21301,Mechanical engineers,British Columbia,32.5,45.0,62.5,2025
+21301,Mechanical engineers,Alberta,33.75,46.73,64.91,2025
+21301,Mechanical engineers,Manitoba,28.12,38.94,54.09,2025
+21301,Mechanical engineers,Saskatchewan,29.06,40.24,55.89,2025
+21301,Mechanical engineers,Nova Scotia,27.5,38.08,52.89,2025
+21301,Mechanical engineers,New Brunswick,27.19,37.64,52.29,2025
+21301,Mechanical engineers,Newfoundland and Labrador,28.75,39.81,55.29,2025
+21301,Mechanical engineers,Prince Edward Island,26.56,36.78,51.09,2025
+32101,Licensed practical nurses,Ontario,27.3,33.6,40.38,2025
+32101,Licensed practical nurses,Quebec,24.7,30.4,36.54,2025
+32101,Licensed practical nurses,British Columbia,27.04,33.28,40.0,2025
+32101,Licensed practical nurses,Alberta,28.08,34.56,41.54,2025
+32101,Licensed practical nurses,Manitoba,23.4,28.8,34.61,2025
+32101,Licensed practical nurses,Saskatchewan,24.18,29.76,35.77,2025
+32101,Licensed practical nurses,Nova Scotia,22.88,28.16,33.84,2025
+32101,Licensed practical nurses,New Brunswick,22.62,27.84,33.46,2025
+32101,Licensed practical nurses,Newfoundland and Labrador,23.92,29.44,35.38,2025
+32101,Licensed practical nurses,Prince Edward Island,22.1,27.2,32.69,2025
+60030,Restaurant and food service managers,Ontario,18.18,23.73,34.32,2025
+60030,Restaurant and food service managers,Quebec,16.44,21.47,31.06,2025
+60030,Restaurant and food service managers,British Columbia,18.0,23.5,34.0,2025
+60030,Restaurant and food service managers,Alberta,18.69,24.41,35.31,2025
+60030,Restaurant and food service managers,Manitoba,15.58,20.34,29.42,2025
+60030,Restaurant and food service managers,Saskatchewan,16.1,21.02,30.4,2025
+60030,Restaurant and food service managers,Nova Scotia,15.23,19.89,28.77,2025
+60030,Restaurant and food service managers,New Brunswick,15.06,19.66,28.44,2025
+60030,Restaurant and food service managers,Newfoundland and Labrador,15.93,20.79,30.07,2025
+60030,Restaurant and food service managers,Prince Edward Island,14.71,19.21,27.79,2025
+31102,General practitioners and family physicians,Ontario,63.0,110.25,173.25,2025
+31102,General practitioners and family physicians,Quebec,57.0,99.75,156.75,2025
+31102,General practitioners and family physicians,British Columbia,62.4,109.2,171.6,2025
+31102,General practitioners and family physicians,Alberta,64.8,113.4,178.2,2025
+31102,General practitioners and family physicians,Manitoba,54.0,94.5,148.5,2025
+31102,General practitioners and family physicians,Saskatchewan,55.8,97.65,153.45,2025
+31102,General practitioners and family physicians,Nova Scotia,52.8,92.4,145.2,2025
+31102,General practitioners and family physicians,New Brunswick,52.2,91.35,143.55,2025
+31102,General practitioners and family physicians,Newfoundland and Labrador,55.2,96.6,151.8,2025
+31102,General practitioners and family physicians,Prince Edward Island,51.0,89.25,140.25,2025

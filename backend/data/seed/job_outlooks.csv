@@ -1,0 +1,121 @@
+noc_code,noc_title,province,outlook,outlook_score,period
+21231,Software engineers and designers,Ontario,moderate,3,2024-2026
+21231,Software engineers and designers,Quebec,moderate,3,2024-2026
+21231,Software engineers and designers,British Columbia,good,4,2024-2026
+21231,Software engineers and designers,Alberta,good,4,2024-2026
+21231,Software engineers and designers,Manitoba,good,4,2024-2026
+21231,Software engineers and designers,Saskatchewan,good,4,2024-2026
+21231,Software engineers and designers,Nova Scotia,moderate,3,2024-2026
+21231,Software engineers and designers,New Brunswick,very good,5,2024-2026
+21231,Software engineers and designers,Newfoundland and Labrador,moderate,3,2024-2026
+21231,Software engineers and designers,Prince Edward Island,good,4,2024-2026
+21232,Software developers and programmers,Ontario,moderate,3,2024-2026
+21232,Software developers and programmers,Quebec,moderate,3,2024-2026
+21232,Software developers and programmers,British Columbia,limited,2,2024-2026
+21232,Software developers and programmers,Alberta,moderate,3,2024-2026
+21232,Software developers and programmers,Manitoba,moderate,3,2024-2026
+21232,Software developers and programmers,Saskatchewan,moderate,3,2024-2026
+21232,Software developers and programmers,Nova Scotia,moderate,3,2024-2026
+21232,Software developers and programmers,New Brunswick,moderate,3,2024-2026
+21232,Software developers and programmers,Newfoundland and Labrador,limited,2,2024-2026
+21232,Software developers and programmers,Prince Edward Island,good,4,2024-2026
+31301,Registered nurses and registered psychiatric nurses,Ontario,good,4,2024-2026
+31301,Registered nurses and registered psychiatric nurses,Quebec,very good,5,2024-2026
+31301,Registered nurses and registered psychiatric nurses,British Columbia,very good,5,2024-2026
+31301,Registered nurses and registered psychiatric nurses,Alberta,very good,5,2024-2026
+31301,Registered nurses and registered psychiatric nurses,Manitoba,very good,5,2024-2026
+31301,Registered nurses and registered psychiatric nurses,Saskatchewan,very good,5,2024-2026
+31301,Registered nurses and registered psychiatric nurses,Nova Scotia,good,4,2024-2026
+31301,Registered nurses and registered psychiatric nurses,New Brunswick,very good,5,2024-2026
+31301,Registered nurses and registered psychiatric nurses,Newfoundland and Labrador,very good,5,2024-2026
+31301,Registered nurses and registered psychiatric nurses,Prince Edward Island,very good,5,2024-2026
+21311,Computer and information systems managers,Ontario,good,4,2024-2026
+21311,Computer and information systems managers,Quebec,good,4,2024-2026
+21311,Computer and information systems managers,British Columbia,good,4,2024-2026
+21311,Computer and information systems managers,Alberta,moderate,3,2024-2026
+21311,Computer and information systems managers,Manitoba,very good,5,2024-2026
+21311,Computer and information systems managers,Saskatchewan,good,4,2024-2026
+21311,Computer and information systems managers,Nova Scotia,good,4,2024-2026
+21311,Computer and information systems managers,New Brunswick,good,4,2024-2026
+21311,Computer and information systems managers,Newfoundland and Labrador,very good,5,2024-2026
+21311,Computer and information systems managers,Prince Edward Island,good,4,2024-2026
+62020,Food service supervisors,Ontario,moderate,3,2024-2026
+62020,Food service supervisors,Quebec,moderate,3,2024-2026
+62020,Food service supervisors,British Columbia,moderate,3,2024-2026
+62020,Food service supervisors,Alberta,limited,2,2024-2026
+62020,Food service supervisors,Manitoba,moderate,3,2024-2026
+62020,Food service supervisors,Saskatchewan,moderate,3,2024-2026
+62020,Food service supervisors,Nova Scotia,good,4,2024-2026
+62020,Food service supervisors,New Brunswick,moderate,3,2024-2026
+62020,Food service supervisors,Newfoundland and Labrador,good,4,2024-2026
+62020,Food service supervisors,Prince Edward Island,moderate,3,2024-2026
+73300,Transport truck drivers,Ontario,moderate,3,2024-2026
+73300,Transport truck drivers,Quebec,moderate,3,2024-2026
+73300,Transport truck drivers,British Columbia,good,4,2024-2026
+73300,Transport truck drivers,Alberta,good,4,2024-2026
+73300,Transport truck drivers,Manitoba,moderate,3,2024-2026
+73300,Transport truck drivers,Saskatchewan,very good,5,2024-2026
+73300,Transport truck drivers,Nova Scotia,moderate,3,2024-2026
+73300,Transport truck drivers,New Brunswick,good,4,2024-2026
+73300,Transport truck drivers,Newfoundland and Labrador,very good,5,2024-2026
+73300,Transport truck drivers,Prince Edward Island,good,4,2024-2026
+41200,University professors and lecturers,Ontario,moderate,3,2024-2026
+41200,University professors and lecturers,Quebec,moderate,3,2024-2026
+41200,University professors and lecturers,British Columbia,limited,2,2024-2026
+41200,University professors and lecturers,Alberta,moderate,3,2024-2026
+41200,University professors and lecturers,Manitoba,limited,2,2024-2026
+41200,University professors and lecturers,Saskatchewan,limited,2,2024-2026
+41200,University professors and lecturers,Nova Scotia,good,4,2024-2026
+41200,University professors and lecturers,New Brunswick,moderate,3,2024-2026
+41200,University professors and lecturers,Newfoundland and Labrador,good,4,2024-2026
+41200,University professors and lecturers,Prince Edward Island,moderate,3,2024-2026
+11100,Financial auditors and accountants,Ontario,good,4,2024-2026
+11100,Financial auditors and accountants,Quebec,moderate,3,2024-2026
+11100,Financial auditors and accountants,British Columbia,good,4,2024-2026
+11100,Financial auditors and accountants,Alberta,good,4,2024-2026
+11100,Financial auditors and accountants,Manitoba,good,4,2024-2026
+11100,Financial auditors and accountants,Saskatchewan,good,4,2024-2026
+11100,Financial auditors and accountants,Nova Scotia,good,4,2024-2026
+11100,Financial auditors and accountants,New Brunswick,moderate,3,2024-2026
+11100,Financial auditors and accountants,Newfoundland and Labrador,good,4,2024-2026
+11100,Financial auditors and accountants,Prince Edward Island,moderate,3,2024-2026
+21301,Mechanical engineers,Ontario,good,4,2024-2026
+21301,Mechanical engineers,Quebec,moderate,3,2024-2026
+21301,Mechanical engineers,British Columbia,moderate,3,2024-2026
+21301,Mechanical engineers,Alberta,good,4,2024-2026
+21301,Mechanical engineers,Manitoba,good,4,2024-2026
+21301,Mechanical engineers,Saskatchewan,good,4,2024-2026
+21301,Mechanical engineers,Nova Scotia,good,4,2024-2026
+21301,Mechanical engineers,New Brunswick,moderate,3,2024-2026
+21301,Mechanical engineers,Newfoundland and Labrador,moderate,3,2024-2026
+21301,Mechanical engineers,Prince Edward Island,very good,5,2024-2026
+32101,Licensed practical nurses,Ontario,very good,5,2024-2026
+32101,Licensed practical nurses,Quebec,very good,5,2024-2026
+32101,Licensed practical nurses,British Columbia,very good,5,2024-2026
+32101,Licensed practical nurses,Alberta,very good,5,2024-2026
+32101,Licensed practical nurses,Manitoba,very good,5,2024-2026
+32101,Licensed practical nurses,Saskatchewan,very good,5,2024-2026
+32101,Licensed practical nurses,Nova Scotia,very good,5,2024-2026
+32101,Licensed practical nurses,New Brunswick,good,4,2024-2026
+32101,Licensed practical nurses,Newfoundland and Labrador,good,4,2024-2026
+32101,Licensed practical nurses,Prince Edward Island,very good,5,2024-2026
+60030,Restaurant and food service managers,Ontario,moderate,3,2024-2026
+60030,Restaurant and food service managers,Quebec,limited,2,2024-2026
+60030,Restaurant and food service managers,British Columbia,good,4,2024-2026
+60030,Restaurant and food service managers,Alberta,moderate,3,2024-2026
+60030,Restaurant and food service managers,Manitoba,moderate,3,2024-2026
+60030,Restaurant and food service managers,Saskatchewan,limited,2,2024-2026
+60030,Restaurant and food service managers,Nova Scotia,limited,2,2024-2026
+60030,Restaurant and food service managers,New Brunswick,good,4,2024-2026
+60030,Restaurant and food service managers,Newfoundland and Labrador,limited,2,2024-2026
+60030,Restaurant and food service managers,Prince Edward Island,limited,2,2024-2026
+31102,General practitioners and family physicians,Ontario,very good,5,2024-2026
+31102,General practitioners and family physicians,Quebec,very good,5,2024-2026
+31102,General practitioners and family physicians,British Columbia,very good,5,2024-2026
+31102,General practitioners and family physicians,Alberta,very good,5,2024-2026
+31102,General practitioners and family physicians,Manitoba,good,4,2024-2026
+31102,General practitioners and family physicians,Saskatchewan,good,4,2024-2026
+31102,General practitioners and family physicians,Nova Scotia,very good,5,2024-2026
+31102,General practitioners and family physicians,New Brunswick,very good,5,2024-2026
+31102,General practitioners and family physicians,Newfoundland and Labrador,good,4,2024-2026
+31102,General practitioners and family physicians,Prince Edward Island,very good,5,2024-2026

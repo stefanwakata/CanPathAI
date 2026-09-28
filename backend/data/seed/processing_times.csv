@@ -1,0 +1,14 @@
+application_type,country_or_region,processing_days,processing_label,as_of_date
+Express Entry - Canadian Experience Class,All,150,5 months,2026-06
+Express Entry - Federal Skilled Worker,All,180,6 months,2026-06
+Provincial Nominee Program (Express Entry),All,180,6 months,2026-06
+Provincial Nominee Program (non-Express Entry),All,330,11 months,2026-06
+Post-Graduation Work Permit,Inside Canada,100,100 days,2026-06
+Study Permit,Outside Canada,56,8 weeks,2026-06
+Study Permit,India,63,9 weeks,2026-06
+Work Permit (outside Canada),All,120,4 months,2026-06
+Work Permit Extension,Inside Canada,130,130 days,2026-06
+Spousal Sponsorship (inland),All,330,11 months,2026-06
+Spousal Sponsorship (outland),All,300,10 months,2026-06
+Citizenship Grant,All,240,8 months,2026-06
+Visitor Visa,Outside Canada,30,30 days,2026-06

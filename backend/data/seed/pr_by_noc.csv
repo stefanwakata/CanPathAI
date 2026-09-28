@@ -1,0 +1,481 @@
+EN_YEAR,EN_PROVINCE_TERRITORY,EN_NOC,TOTAL
+2023,Ontario,21231 - Software engineers and designers,1100
+2023,Ontario,21232 - Software developers and programmers,3889
+2023,Ontario,31301 - Registered nurses and registered psychiatric nurses,2081
+2023,Ontario,21311 - Computer and information systems managers,2823
+2023,Ontario,62020 - Food service supervisors,2724
+2023,Ontario,73300 - Transport truck drivers,3060
+2023,Ontario,41200 - University professors and lecturers,2616
+2023,Ontario,11100 - Financial auditors and accountants,1147
+2023,Ontario,21301 - Mechanical engineers,1562
+2023,Ontario,32101 - Licensed practical nurses,1288
+2023,Ontario,60030 - Restaurant and food service managers,975
+2023,Ontario,31102 - General practitioners and family physicians,2813
+2023,Quebec,21231 - Software engineers and designers,544
+2023,Quebec,21232 - Software developers and programmers,356
+2023,Quebec,31301 - Registered nurses and registered psychiatric nurses,367
+2023,Quebec,21311 - Computer and information systems managers,195
+2023,Quebec,62020 - Food service supervisors,989
+2023,Quebec,73300 - Transport truck drivers,977
+2023,Quebec,41200 - University professors and lecturers,544
+2023,Quebec,11100 - Financial auditors and accountants,289
+2023,Quebec,21301 - Mechanical engineers,1014
+2023,Quebec,32101 - Licensed practical nurses,708
+2023,Quebec,60030 - Restaurant and food service managers,300
+2023,Quebec,31102 - General practitioners and family physicians,431
+2023,British Columbia,21231 - Software engineers and designers,1082
+2023,British Columbia,21232 - Software developers and programmers,414
+2023,British Columbia,31301 - Registered nurses and registered psychiatric nurses,1058
+2023,British Columbia,21311 - Computer and information systems managers,1042
+2023,British Columbia,62020 - Food service supervisors,928
+2023,British Columbia,73300 - Transport truck drivers,641
+2023,British Columbia,41200 - University professors and lecturers,1115
+2023,British Columbia,11100 - Financial auditors and accountants,1062
+2023,British Columbia,21301 - Mechanical engineers,321
+2023,British Columbia,32101 - Licensed practical nurses,487
+2023,British Columbia,60030 - Restaurant and food service managers,1115
+2023,British Columbia,31102 - General practitioners and family physicians,494
+2023,Alberta,21231 - Software engineers and designers,318
+2023,Alberta,21232 - Software developers and programmers,730
+2023,Alberta,31301 - Registered nurses and registered psychiatric nurses,296
+2023,Alberta,21311 - Computer and information systems managers,494
+2023,Alberta,62020 - Food service supervisors,750
+2023,Alberta,73300 - Transport truck drivers,289
+2023,Alberta,41200 - University professors and lecturers,301
+2023,Alberta,11100 - Financial auditors and accountants,285
+2023,Alberta,21301 - Mechanical engineers,421
+2023,Alberta,32101 - Licensed practical nurses,617
+2023,Alberta,60030 - Restaurant and food service managers,265
+2023,Alberta,31102 - General practitioners and family physicians,383
+2023,Manitoba,21231 - Software engineers and designers,198
+2023,Manitoba,21232 - Software developers and programmers,164
+2023,Manitoba,31301 - Registered nurses and registered psychiatric nurses,141
+2023,Manitoba,21311 - Computer and information systems managers,107
+2023,Manitoba,62020 - Food service supervisors,258
+2023,Manitoba,73300 - Transport truck drivers,197
+2023,Manitoba,41200 - University professors and lecturers,419
+2023,Manitoba,11100 - Financial auditors and accountants,297
+2023,Manitoba,21301 - Mechanical engineers,344
+2023,Manitoba,32101 - Licensed practical nurses,293
+2023,Manitoba,60030 - Restaurant and food service managers,271
+2023,Manitoba,31102 - General practitioners and family physicians,202
+2023,Saskatchewan,21231 - Software engineers and designers,330
+2023,Saskatchewan,21232 - Software developers and programmers,226
+2023,Saskatchewan,31301 - Registered nurses and registered psychiatric nurses,296
+2023,Saskatchewan,21311 - Computer and information systems managers,198
+2023,Saskatchewan,62020 - Food service supervisors,235
+2023,Saskatchewan,73300 - Transport truck drivers,384
+2023,Saskatchewan,41200 - University professors and lecturers,243
+2023,Saskatchewan,11100 - Financial auditors and accountants,207
+2023,Saskatchewan,21301 - Mechanical engineers,212
+2023,Saskatchewan,32101 - Licensed practical nurses,259
+2023,Saskatchewan,60030 - Restaurant and food service managers,151
+2023,Saskatchewan,31102 - General practitioners and family physicians,261
+2023,Nova Scotia,21231 - Software engineers and designers,120
+2023,Nova Scotia,21232 - Software developers and programmers,103
+2023,Nova Scotia,31301 - Registered nurses and registered psychiatric nurses,158
+2023,Nova Scotia,21311 - Computer and information systems managers,215
+2023,Nova Scotia,62020 - Food service supervisors,148
+2023,Nova Scotia,73300 - Transport truck drivers,114
+2023,Nova Scotia,41200 - University professors and lecturers,181
+2023,Nova Scotia,11100 - Financial auditors and accountants,273
+2023,Nova Scotia,21301 - Mechanical engineers,137
+2023,Nova Scotia,32101 - Licensed practical nurses,106
+2023,Nova Scotia,60030 - Restaurant and food service managers,112
+2023,Nova Scotia,31102 - General practitioners and family physicians,123
+2023,New Brunswick,21231 - Software engineers and designers,118
+2023,New Brunswick,21232 - Software developers and programmers,74
+2023,New Brunswick,31301 - Registered nurses and registered psychiatric nurses,151
+2023,New Brunswick,21311 - Computer and information systems managers,51
+2023,New Brunswick,62020 - Food service supervisors,86
+2023,New Brunswick,73300 - Transport truck drivers,190
+2023,New Brunswick,41200 - University professors and lecturers,157
+2023,New Brunswick,11100 - Financial auditors and accountants,164
+2023,New Brunswick,21301 - Mechanical engineers,86
+2023,New Brunswick,32101 - Licensed practical nurses,133
+2023,New Brunswick,60030 - Restaurant and food service managers,161
+2023,New Brunswick,31102 - General practitioners and family physicians,199
+2023,Newfoundland and Labrador,21231 - Software engineers and designers,65
+2023,Newfoundland and Labrador,21232 - Software developers and programmers,46
+2023,Newfoundland and Labrador,31301 - Registered nurses and registered psychiatric nurses,25
+2023,Newfoundland and Labrador,21311 - Computer and information systems managers,77
+2023,Newfoundland and Labrador,62020 - Food service supervisors,75
+2023,Newfoundland and Labrador,73300 - Transport truck drivers,71
+2023,Newfoundland and Labrador,41200 - University professors and lecturers,24
+2023,Newfoundland and Labrador,11100 - Financial auditors and accountants,43
+2023,Newfoundland and Labrador,21301 - Mechanical engineers,83
+2023,Newfoundland and Labrador,32101 - Licensed practical nurses,15
+2023,Newfoundland and Labrador,60030 - Restaurant and food service managers,80
+2023,Newfoundland and Labrador,31102 - General practitioners and family physicians,31
+2023,Prince Edward Island,21231 - Software engineers and designers,66
+2023,Prince Edward Island,21232 - Software developers and programmers,30
+2023,Prince Edward Island,31301 - Registered nurses and registered psychiatric nurses,41
+2023,Prince Edward Island,21311 - Computer and information systems managers,15
+2023,Prince Edward Island,62020 - Food service supervisors,33
+2023,Prince Edward Island,73300 - Transport truck drivers,25
+2023,Prince Edward Island,41200 - University professors and lecturers,41
+2023,Prince Edward Island,11100 - Financial auditors and accountants,24
+2023,Prince Edward Island,21301 - Mechanical engineers,56
+2023,Prince Edward Island,32101 - Licensed practical nurses,26
+2023,Prince Edward Island,60030 - Restaurant and food service managers,21
+2023,Prince Edward Island,31102 - General practitioners and family physicians,72
+2024,Ontario,21231 - Software engineers and designers,2652
+2024,Ontario,21232 - Software developers and programmers,1372
+2024,Ontario,31301 - Registered nurses and registered psychiatric nurses,783
+2024,Ontario,21311 - Computer and information systems managers,2333
+2024,Ontario,62020 - Food service supervisors,3415
+2024,Ontario,73300 - Transport truck drivers,1944
+2024,Ontario,41200 - University professors and lecturers,1522
+2024,Ontario,11100 - Financial auditors and accountants,1778
+2024,Ontario,21301 - Mechanical engineers,2412
+2024,Ontario,32101 - Licensed practical nurses,1630
+2024,Ontario,60030 - Restaurant and food service managers,1354
+2024,Ontario,31102 - General practitioners and family physicians,2878
+2024,Quebec,21231 - Software engineers and designers,472
+2024,Quebec,21232 - Software developers and programmers,690
+2024,Quebec,31301 - Registered nurses and registered psychiatric nurses,901
+2024,Quebec,21311 - Computer and information systems managers,801
+2024,Quebec,62020 - Food service supervisors,399
+2024,Quebec,73300 - Transport truck drivers,304
+2024,Quebec,41200 - University professors and lecturers,865
+2024,Quebec,11100 - Financial auditors and accountants,465
+2024,Quebec,21301 - Mechanical engineers,915
+2024,Quebec,32101 - Licensed practical nurses,366
+2024,Quebec,60030 - Restaurant and food service managers,1102
+2024,Quebec,31102 - General practitioners and family physicians,940
+2024,British Columbia,21231 - Software engineers and designers,1026
+2024,British Columbia,21232 - Software developers and programmers,1087
+2024,British Columbia,31301 - Registered nurses and registered psychiatric nurses,1213
+2024,British Columbia,21311 - Computer and information systems managers,674
+2024,British Columbia,62020 - Food service supervisors,309
+2024,British Columbia,73300 - Transport truck drivers,771
+2024,British Columbia,41200 - University professors and lecturers,931
+2024,British Columbia,11100 - Financial auditors and accountants,912
+2024,British Columbia,21301 - Mechanical engineers,1306
+2024,British Columbia,32101 - Licensed practical nurses,897
+2024,British Columbia,60030 - Restaurant and food service managers,1315
+2024,British Columbia,31102 - General practitioners and family physicians,380
+2024,Alberta,21231 - Software engineers and designers,265
+2024,Alberta,21232 - Software developers and programmers,922
+2024,Alberta,31301 - Registered nurses and registered psychiatric nurses,357
+2024,Alberta,21311 - Computer and information systems managers,391
+2024,Alberta,62020 - Food service supervisors,517
+2024,Alberta,73300 - Transport truck drivers,481
+2024,Alberta,41200 - University professors and lecturers,416
+2024,Alberta,11100 - Financial auditors and accountants,479
+2024,Alberta,21301 - Mechanical engineers,643
+2024,Alberta,32101 - Licensed practical nurses,766
+2024,Alberta,60030 - Restaurant and food service managers,279
+2024,Alberta,31102 - General practitioners and family physicians,671
+2024,Manitoba,21231 - Software engineers and designers,191
+2024,Manitoba,21232 - Software developers and programmers,108
+2024,Manitoba,31301 - Registered nurses and registered psychiatric nurses,111
+2024,Manitoba,21311 - Computer and information systems managers,221
+2024,Manitoba,62020 - Food service supervisors,378
+2024,Manitoba,73300 - Transport truck drivers,199
+2024,Manitoba,41200 - University professors and lecturers,339
+2024,Manitoba,11100 - Financial auditors and accountants,257
+2024,Manitoba,21301 - Mechanical engineers,240
+2024,Manitoba,32101 - Licensed practical nurses,186
+2024,Manitoba,60030 - Restaurant and food service managers,147
+2024,Manitoba,31102 - General practitioners and family physicians,266
+2024,Saskatchewan,21231 - Software engineers and designers,89
+2024,Saskatchewan,21232 - Software developers and programmers,225
+2024,Saskatchewan,31301 - Registered nurses and registered psychiatric nurses,309
+2024,Saskatchewan,21311 - Computer and information systems managers,64
+2024,Saskatchewan,62020 - Food service supervisors,134
+2024,Saskatchewan,73300 - Transport truck drivers,167
+2024,Saskatchewan,41200 - University professors and lecturers,121
+2024,Saskatchewan,11100 - Financial auditors and accountants,210
+2024,Saskatchewan,21301 - Mechanical engineers,235
+2024,Saskatchewan,32101 - Licensed practical nurses,93
+2024,Saskatchewan,60030 - Restaurant and food service managers,195
+2024,Saskatchewan,31102 - General practitioners and family physicians,264
+2024,Nova Scotia,21231 - Software engineers and designers,114
+2024,Nova Scotia,21232 - Software developers and programmers,157
+2024,Nova Scotia,31301 - Registered nurses and registered psychiatric nurses,267
+2024,Nova Scotia,21311 - Computer and information systems managers,133
+2024,Nova Scotia,62020 - Food service supervisors,106
+2024,Nova Scotia,73300 - Transport truck drivers,275
+2024,Nova Scotia,41200 - University professors and lecturers,116
+2024,Nova Scotia,11100 - Financial auditors and accountants,168
+2024,Nova Scotia,21301 - Mechanical engineers,201
+2024,Nova Scotia,32101 - Licensed practical nurses,77
+2024,Nova Scotia,60030 - Restaurant and food service managers,148
+2024,Nova Scotia,31102 - General practitioners and family physicians,204
+2024,New Brunswick,21231 - Software engineers and designers,108
+2024,New Brunswick,21232 - Software developers and programmers,219
+2024,New Brunswick,31301 - Registered nurses and registered psychiatric nurses,123
+2024,New Brunswick,21311 - Computer and information systems managers,150
+2024,New Brunswick,62020 - Food service supervisors,105
+2024,New Brunswick,73300 - Transport truck drivers,104
+2024,New Brunswick,41200 - University professors and lecturers,163
+2024,New Brunswick,11100 - Financial auditors and accountants,95
+2024,New Brunswick,21301 - Mechanical engineers,138
+2024,New Brunswick,32101 - Licensed practical nurses,122
+2024,New Brunswick,60030 - Restaurant and food service managers,153
+2024,New Brunswick,31102 - General practitioners and family physicians,138
+2024,Newfoundland and Labrador,21231 - Software engineers and designers,20
+2024,Newfoundland and Labrador,21232 - Software developers and programmers,25
+2024,Newfoundland and Labrador,31301 - Registered nurses and registered psychiatric nurses,33
+2024,Newfoundland and Labrador,21311 - Computer and information systems managers,31
+2024,Newfoundland and Labrador,62020 - Food service supervisors,29
+2024,Newfoundland and Labrador,73300 - Transport truck drivers,43
+2024,Newfoundland and Labrador,41200 - University professors and lecturers,73
+2024,Newfoundland and Labrador,11100 - Financial auditors and accountants,16
+2024,Newfoundland and Labrador,21301 - Mechanical engineers,86
+2024,Newfoundland and Labrador,32101 - Licensed practical nurses,53
+2024,Newfoundland and Labrador,60030 - Restaurant and food service managers,21
+2024,Newfoundland and Labrador,31102 - General practitioners and family physicians,55
+2024,Prince Edward Island,21231 - Software engineers and designers,23
+2024,Prince Edward Island,21232 - Software developers and programmers,61
+2024,Prince Edward Island,31301 - Registered nurses and registered psychiatric nurses,32
+2024,Prince Edward Island,21311 - Computer and information systems managers,18
+2024,Prince Edward Island,62020 - Food service supervisors,31
+2024,Prince Edward Island,73300 - Transport truck drivers,31
+2024,Prince Edward Island,41200 - University professors and lecturers,19
+2024,Prince Edward Island,11100 - Financial auditors and accountants,16
+2024,Prince Edward Island,21301 - Mechanical engineers,42
+2024,Prince Edward Island,32101 - Licensed practical nurses,31
+2024,Prince Edward Island,60030 - Restaurant and food service managers,52
+2024,Prince Edward Island,31102 - General practitioners and family physicians,19
+2025,Ontario,21231 - Software engineers and designers,1132
+2025,Ontario,21232 - Software developers and programmers,3109
+2025,Ontario,31301 - Registered nurses and registered psychiatric nurses,1971
+2025,Ontario,21311 - Computer and information systems managers,3083
+2025,Ontario,62020 - Food service supervisors,2511
+2025,Ontario,73300 - Transport truck drivers,2213
+2025,Ontario,41200 - University professors and lecturers,2922
+2025,Ontario,11100 - Financial auditors and accountants,1896
+2025,Ontario,21301 - Mechanical engineers,3121
+2025,Ontario,32101 - Licensed practical nurses,1119
+2025,Ontario,60030 - Restaurant and food service managers,1389
+2025,Ontario,31102 - General practitioners and family physicians,2915
+2025,Quebec,21231 - Software engineers and designers,917
+2025,Quebec,21232 - Software developers and programmers,870
+2025,Quebec,31301 - Registered nurses and registered psychiatric nurses,472
+2025,Quebec,21311 - Computer and information systems managers,403
+2025,Quebec,62020 - Food service supervisors,874
+2025,Quebec,73300 - Transport truck drivers,901
+2025,Quebec,41200 - University professors and lecturers,819
+2025,Quebec,11100 - Financial auditors and accountants,745
+2025,Quebec,21301 - Mechanical engineers,710
+2025,Quebec,32101 - Licensed practical nurses,303
+2025,Quebec,60030 - Restaurant and food service managers,397
+2025,Quebec,31102 - General practitioners and family physicians,764
+2025,British Columbia,21231 - Software engineers and designers,1181
+2025,British Columbia,21232 - Software developers and programmers,1106
+2025,British Columbia,31301 - Registered nurses and registered psychiatric nurses,828
+2025,British Columbia,21311 - Computer and information systems managers,1315
+2025,British Columbia,62020 - Food service supervisors,1007
+2025,British Columbia,73300 - Transport truck drivers,708
+2025,British Columbia,41200 - University professors and lecturers,1088
+2025,British Columbia,11100 - Financial auditors and accountants,515
+2025,British Columbia,21301 - Mechanical engineers,620
+2025,British Columbia,32101 - Licensed practical nurses,827
+2025,British Columbia,60030 - Restaurant and food service managers,828
+2025,British Columbia,31102 - General practitioners and family physicians,632
+2025,Alberta,21231 - Software engineers and designers,623
+2025,Alberta,21232 - Software developers and programmers,261
+2025,Alberta,31301 - Registered nurses and registered psychiatric nurses,524
+2025,Alberta,21311 - Computer and information systems managers,270
+2025,Alberta,62020 - Food service supervisors,640
+2025,Alberta,73300 - Transport truck drivers,536
+2025,Alberta,41200 - University professors and lecturers,850
+2025,Alberta,11100 - Financial auditors and accountants,404
+2025,Alberta,21301 - Mechanical engineers,361
+2025,Alberta,32101 - Licensed practical nurses,669
+2025,Alberta,60030 - Restaurant and food service managers,603
+2025,Alberta,31102 - General practitioners and family physicians,661
+2025,Manitoba,21231 - Software engineers and designers,301
+2025,Manitoba,21232 - Software developers and programmers,216
+2025,Manitoba,31301 - Registered nurses and registered psychiatric nurses,373
+2025,Manitoba,21311 - Computer and information systems managers,272
+2025,Manitoba,62020 - Food service supervisors,82
+2025,Manitoba,73300 - Transport truck drivers,135
+2025,Manitoba,41200 - University professors and lecturers,276
+2025,Manitoba,11100 - Financial auditors and accountants,252
+2025,Manitoba,21301 - Mechanical engineers,377
+2025,Manitoba,32101 - Licensed practical nurses,256
+2025,Manitoba,60030 - Restaurant and food service managers,275
+2025,Manitoba,31102 - General practitioners and family physicians,251
+2025,Saskatchewan,21231 - Software engineers and designers,298
+2025,Saskatchewan,21232 - Software developers and programmers,266
+2025,Saskatchewan,31301 - Registered nurses and registered psychiatric nurses,279
+2025,Saskatchewan,21311 - Computer and information systems managers,98
+2025,Saskatchewan,62020 - Food service supervisors,172
+2025,Saskatchewan,73300 - Transport truck drivers,353
+2025,Saskatchewan,41200 - University professors and lecturers,193
+2025,Saskatchewan,11100 - Financial auditors and accountants,275
+2025,Saskatchewan,21301 - Mechanical engineers,237
+2025,Saskatchewan,32101 - Licensed practical nurses,93
+2025,Saskatchewan,60030 - Restaurant and food service managers,255
+2025,Saskatchewan,31102 - General practitioners and family physicians,190
+2025,Nova Scotia,21231 - Software engineers and designers,282
+2025,Nova Scotia,21232 - Software developers and programmers,184
+2025,Nova Scotia,31301 - Registered nurses and registered psychiatric nurses,283
+2025,Nova Scotia,21311 - Computer and information systems managers,120
+2025,Nova Scotia,62020 - Food service supervisors,139
+2025,Nova Scotia,73300 - Transport truck drivers,184
+2025,Nova Scotia,41200 - University professors and lecturers,213
+2025,Nova Scotia,11100 - Financial auditors and accountants,221
+2025,Nova Scotia,21301 - Mechanical engineers,156
+2025,Nova Scotia,32101 - Licensed practical nurses,160
+2025,Nova Scotia,60030 - Restaurant and food service managers,124
+2025,Nova Scotia,31102 - General practitioners and family physicians,259
+2025,New Brunswick,21231 - Software engineers and designers,201
+2025,New Brunswick,21232 - Software developers and programmers,146
+2025,New Brunswick,31301 - Registered nurses and registered psychiatric nurses,55
+2025,New Brunswick,21311 - Computer and information systems managers,123
+2025,New Brunswick,62020 - Food service supervisors,147
+2025,New Brunswick,73300 - Transport truck drivers,185
+2025,New Brunswick,41200 - University professors and lecturers,98
+2025,New Brunswick,11100 - Financial auditors and accountants,177
+2025,New Brunswick,21301 - Mechanical engineers,37
+2025,New Brunswick,32101 - Licensed practical nurses,135
+2025,New Brunswick,60030 - Restaurant and food service managers,145
+2025,New Brunswick,31102 - General practitioners and family physicians,79
+2025,Newfoundland and Labrador,21231 - Software engineers and designers,77
+2025,Newfoundland and Labrador,21232 - Software developers and programmers,38
+2025,Newfoundland and Labrador,31301 - Registered nurses and registered psychiatric nurses,19
+2025,Newfoundland and Labrador,21311 - Computer and information systems managers,25
+2025,Newfoundland and Labrador,62020 - Food service supervisors,74
+2025,Newfoundland and Labrador,73300 - Transport truck drivers,67
+2025,Newfoundland and Labrador,41200 - University professors and lecturers,34
+2025,Newfoundland and Labrador,11100 - Financial auditors and accountants,64
+2025,Newfoundland and Labrador,21301 - Mechanical engineers,69
+2025,Newfoundland and Labrador,32101 - Licensed practical nurses,48
+2025,Newfoundland and Labrador,60030 - Restaurant and food service managers,76
+2025,Newfoundland and Labrador,31102 - General practitioners and family physicians,43
+2025,Prince Edward Island,21231 - Software engineers and designers,27
+2025,Prince Edward Island,21232 - Software developers and programmers,62
+2025,Prince Edward Island,31301 - Registered nurses and registered psychiatric nurses,65
+2025,Prince Edward Island,21311 - Computer and information systems managers,53
+2025,Prince Edward Island,62020 - Food service supervisors,54
+2025,Prince Edward Island,73300 - Transport truck drivers,49
+2025,Prince Edward Island,41200 - University professors and lecturers,59
+2025,Prince Edward Island,11100 - Financial auditors and accountants,23
+2025,Prince Edward Island,21301 - Mechanical engineers,19
+2025,Prince Edward Island,32101 - Licensed practical nurses,38
+2025,Prince Edward Island,60030 - Restaurant and food service managers,36
+2025,Prince Edward Island,31102 - General practitioners and family physicians,20
+2026,Ontario,21231 - Software engineers and designers,1295
+2026,Ontario,21232 - Software developers and programmers,2338
+2026,Ontario,31301 - Registered nurses and registered psychiatric nurses,1021
+2026,Ontario,21311 - Computer and information systems managers,924
+2026,Ontario,62020 - Food service supervisors,2543
+2026,Ontario,73300 - Transport truck drivers,2101
+2026,Ontario,41200 - University professors and lecturers,1842
+2026,Ontario,11100 - Financial auditors and accountants,1400
+2026,Ontario,21301 - Mechanical engineers,994
+2026,Ontario,32101 - Licensed practical nurses,2026
+2026,Ontario,60030 - Restaurant and food service managers,1859
+2026,Ontario,31102 - General practitioners and family physicians,1150
+2026,Quebec,21231 - Software engineers and designers,469
+2026,Quebec,21232 - Software developers and programmers,430
+2026,Quebec,31301 - Registered nurses and registered psychiatric nurses,788
+2026,Quebec,21311 - Computer and information systems managers,1087
+2026,Quebec,62020 - Food service supervisors,223
+2026,Quebec,73300 - Transport truck drivers,681
+2026,Quebec,41200 - University professors and lecturers,774
+2026,Quebec,11100 - Financial auditors and accountants,1114
+2026,Quebec,21301 - Mechanical engineers,557
+2026,Quebec,32101 - Licensed practical nurses,990
+2026,Quebec,60030 - Restaurant and food service managers,624
+2026,Quebec,31102 - General practitioners and family physicians,1120
+2026,British Columbia,21231 - Software engineers and designers,726
+2026,British Columbia,21232 - Software developers and programmers,611
+2026,British Columbia,31301 - Registered nurses and registered psychiatric nurses,1086
+2026,British Columbia,21311 - Computer and information systems managers,935
+2026,British Columbia,62020 - Food service supervisors,501
+2026,British Columbia,73300 - Transport truck drivers,684
+2026,British Columbia,41200 - University professors and lecturers,340
+2026,British Columbia,11100 - Financial auditors and accountants,1229
+2026,British Columbia,21301 - Mechanical engineers,607
+2026,British Columbia,32101 - Licensed practical nurses,891
+2026,British Columbia,60030 - Restaurant and food service managers,1434
+2026,British Columbia,31102 - General practitioners and family physicians,1099
+2026,Alberta,21231 - Software engineers and designers,694
+2026,Alberta,21232 - Software developers and programmers,525
+2026,Alberta,31301 - Registered nurses and registered psychiatric nurses,216
+2026,Alberta,21311 - Computer and information systems managers,848
+2026,Alberta,62020 - Food service supervisors,589
+2026,Alberta,73300 - Transport truck drivers,381
+2026,Alberta,41200 - University professors and lecturers,681
+2026,Alberta,11100 - Financial auditors and accountants,213
+2026,Alberta,21301 - Mechanical engineers,652
+2026,Alberta,32101 - Licensed practical nurses,752
+2026,Alberta,60030 - Restaurant and food service managers,710
+2026,Alberta,31102 - General practitioners and family physicians,284
+2026,Manitoba,21231 - Software engineers and designers,125
+2026,Manitoba,21232 - Software developers and programmers,153
+2026,Manitoba,31301 - Registered nurses and registered psychiatric nurses,329
+2026,Manitoba,21311 - Computer and information systems managers,223
+2026,Manitoba,62020 - Food service supervisors,241
+2026,Manitoba,73300 - Transport truck drivers,119
+2026,Manitoba,41200 - University professors and lecturers,353
+2026,Manitoba,11100 - Financial auditors and accountants,350
+2026,Manitoba,21301 - Mechanical engineers,352
+2026,Manitoba,32101 - Licensed practical nurses,375
+2026,Manitoba,60030 - Restaurant and food service managers,237
+2026,Manitoba,31102 - General practitioners and family physicians,270
+2026,Saskatchewan,21231 - Software engineers and designers,78
+2026,Saskatchewan,21232 - Software developers and programmers,226
+2026,Saskatchewan,31301 - Registered nurses and registered psychiatric nurses,296
+2026,Saskatchewan,21311 - Computer and information systems managers,303
+2026,Saskatchewan,62020 - Food service supervisors,150
+2026,Saskatchewan,73300 - Transport truck drivers,238
+2026,Saskatchewan,41200 - University professors and lecturers,95
+2026,Saskatchewan,11100 - Financial auditors and accountants,256
+2026,Saskatchewan,21301 - Mechanical engineers,123
+2026,Saskatchewan,32101 - Licensed practical nurses,329
+2026,Saskatchewan,60030 - Restaurant and food service managers,370
+2026,Saskatchewan,31102 - General practitioners and family physicians,190
+2026,Nova Scotia,21231 - Software engineers and designers,89
+2026,Nova Scotia,21232 - Software developers and programmers,72
+2026,Nova Scotia,31301 - Registered nurses and registered psychiatric nurses,136
+2026,Nova Scotia,21311 - Computer and information systems managers,76
+2026,Nova Scotia,62020 - Food service supervisors,69
+2026,Nova Scotia,73300 - Transport truck drivers,214
+2026,Nova Scotia,41200 - University professors and lecturers,143
+2026,Nova Scotia,11100 - Financial auditors and accountants,112
+2026,Nova Scotia,21301 - Mechanical engineers,153
+2026,Nova Scotia,32101 - Licensed practical nurses,108
+2026,Nova Scotia,60030 - Restaurant and food service managers,43
+2026,Nova Scotia,31102 - General practitioners and family physicians,99
+2026,New Brunswick,21231 - Software engineers and designers,126
+2026,New Brunswick,21232 - Software developers and programmers,66
+2026,New Brunswick,31301 - Registered nurses and registered psychiatric nurses,184
+2026,New Brunswick,21311 - Computer and information systems managers,92
+2026,New Brunswick,62020 - Food service supervisors,116
+2026,New Brunswick,73300 - Transport truck drivers,158
+2026,New Brunswick,41200 - University professors and lecturers,160
+2026,New Brunswick,11100 - Financial auditors and accountants,118
+2026,New Brunswick,21301 - Mechanical engineers,160
+2026,New Brunswick,32101 - Licensed practical nurses,42
+2026,New Brunswick,60030 - Restaurant and food service managers,103
+2026,New Brunswick,31102 - General practitioners and family physicians,132
+2026,Newfoundland and Labrador,21231 - Software engineers and designers,63
+2026,Newfoundland and Labrador,21232 - Software developers and programmers,53
+2026,Newfoundland and Labrador,31301 - Registered nurses and registered psychiatric nurses,82
+2026,Newfoundland and Labrador,21311 - Computer and information systems managers,64
+2026,Newfoundland and Labrador,62020 - Food service supervisors,33
+2026,Newfoundland and Labrador,73300 - Transport truck drivers,60
+2026,Newfoundland and Labrador,41200 - University professors and lecturers,47
+2026,Newfoundland and Labrador,11100 - Financial auditors and accountants,42
+2026,Newfoundland and Labrador,21301 - Mechanical engineers,67
+2026,Newfoundland and Labrador,32101 - Licensed practical nurses,73
+2026,Newfoundland and Labrador,60030 - Restaurant and food service managers,26
+2026,Newfoundland and Labrador,31102 - General practitioners and family physicians,40
+2026,Prince Edward Island,21231 - Software engineers and designers,67
+2026,Prince Edward Island,21232 - Software developers and programmers,70
+2026,Prince Edward Island,31301 - Registered nurses and registered psychiatric nurses,36
+2026,Prince Edward Island,21311 - Computer and information systems managers,24
+2026,Prince Edward Island,62020 - Food service supervisors,15
+2026,Prince Edward Island,73300 - Transport truck drivers,13
+2026,Prince Edward Island,41200 - University professors and lecturers,58
+2026,Prince Edward Island,11100 - Financial auditors and accountants,37
+2026,Prince Edward Island,21301 - Mechanical engineers,17
+2026,Prince Edward Island,32101 - Licensed practical nurses,32
+2026,Prince Edward Island,60030 - Restaurant and food service managers,45
+2026,Prince Edward Island,31102 - General practitioners and family physicians,52

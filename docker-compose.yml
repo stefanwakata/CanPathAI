@@ -1,0 +1,56 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: canpath
+      POSTGRES_PASSWORD: canpath
+      POSTGRES_DB: canpath
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U canpath"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    ports:
+      - "5432:5432"
+
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql+psycopg2://canpath:canpath@db:5432/canpath
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      ANTHROPIC_MODEL: ${ANTHROPIC_MODEL:-claude-sonnet-4-6}
+      CHROMA_PERSIST_DIR: /app/chroma_data
+      CORS_ORIGINS: http://localhost:5173,http://localhost:8080
+    volumes:
+      - chroma:/app/chroma_data
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+
+  ingest:
+    build: ./backend
+    profiles: ["ingest"]
+    command: python -m app.ingestion.run_ingestion --all
+    environment:
+      DATABASE_URL: postgresql+psycopg2://canpath:canpath@db:5432/canpath
+      CHROMA_PERSIST_DIR: /app/chroma_data
+    volumes:
+      - chroma:/app/chroma_data
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+
+volumes:
+  pgdata:
+  chroma:
