@@ -29,7 +29,10 @@ TESTSET = [
         "lang": "en",
     },
     {
-        "question": "Le taux de chômage des immigrants récents est-il plus élevé que celui des personnes nées au Canada ?",
+        "question": (
+            "Le taux de chômage des immigrants récents est-il plus élevé que celui des "
+            "personnes nées au Canada ?"
+        ),
         "ground_truth": (
             "Oui. Les données de l'Enquête sur la population active montrent que le taux de "
             "chômage des immigrants très récents (5 ans ou moins) est nettement supérieur à "
@@ -46,7 +49,10 @@ TESTSET = [
         "lang": "en",
     },
     {
-        "question": "Combien de temps faut-il pour traiter une demande de résidence permanente via Entrée express ?",
+        "question": (
+            "Combien de temps faut-il pour traiter une demande de résidence permanente "
+            "via Entrée express ?"
+        ),
         "ground_truth": (
             "IRCC vise un délai de traitement d'environ 6 mois pour la plupart des demandes "
             "complètes soumises via Entrée express, selon les délais publiés."

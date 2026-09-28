@@ -86,17 +86,20 @@ Des **seeds réalistes** (mêmes schémas que les fichiers IRCC) sont embarqués
 fonctionne hors-ligne et les tests CI n'ont pas besoin du réseau. L'ingestion réelle les
 remplace au premier run.
 
-## Déploiement Azure
+## Déploiement
 
-Workflows fournis (`.github/workflows/`) :
+Le projet n'est pas encore déployé en production. Des workflows GitHub Actions sont prêts
+(`.github/workflows/`) :
 
 - `ci.yml` — lint (ruff) + pytest + typecheck/build frontend + build Docker.
 - `data-refresh.yml` — cron hebdomadaire (lundi 06:00 UTC) : IRCC + StatCan + RAG.
-- `deploy-azure.yml` — backend → ACR + App Service (conteneur), frontend → Static Web Apps.
+- `deploy-azure.yml` — pipeline de déploiement Azure (backend → ACR + App Service,
+  frontend → Static Web Apps), **non activé** : il faudrait configurer les secrets
+  `AZURE_CREDENTIALS`, `ACR_NAME`, `ACR_LOGIN_SERVER`, `AZURE_WEBAPP_NAME`,
+  `AZURE_STATIC_WEB_APPS_API_TOKEN`, `BACKEND_URL`, `DATABASE_URL` et `ANTHROPIC_API_KEY`
+  pour que ce pipeline s'exécute.
 
-Secrets requis : `AZURE_CREDENTIALS`, `ACR_NAME`, `ACR_LOGIN_SERVER`, `AZURE_WEBAPP_NAME`,
-`AZURE_STATIC_WEB_APPS_API_TOKEN`, `BACKEND_URL`, `DATABASE_URL` (PostgreSQL managé),
-`ANTHROPIC_API_KEY` (App Service settings).
+Pour l'instant, l'app tourne en local via Docker (voir ci-dessus).
 
 ## Notes de conception
 

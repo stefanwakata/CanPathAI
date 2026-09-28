@@ -21,10 +21,9 @@ ENV PATH="/opt/venv/bin:$PATH" \
 
 COPY app ./app
 COPY data/seed ./data/seed
-COPY data/raw ./data/raw
 COPY streamlit_app.py .
 
-RUN mkdir -p /app/chroma_data && chown -R appuser:appuser /app
+RUN mkdir -p /app/chroma_data /app/data/raw && chown -R appuser:appuser /app
 USER appuser
 
 EXPOSE 8000

@@ -120,9 +120,16 @@ def ingest_seed_only_tables() -> None:
     and the weekly GitHub Action; the seed guarantees a working local product.
     """
     seeds = {
-        "wages_by_noc": "StatCan 14-10-0417 / Job Bank wages — https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410041701",
+        "wages_by_noc": (
+            "StatCan 14-10-0417 / Job Bank wages — "
+            "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410041701"
+        ),
         "job_outlooks": "Job Bank Canada 3-year outlooks — https://www.jobbank.gc.ca/trend-analysis",
-        "processing_times": "IRCC processing times — https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html",
+        "processing_times": (
+            "IRCC processing times — "
+            "https://www.canada.ca/en/immigration-refugees-citizenship/services/"
+            "application/check-processing-times.html"
+        ),
     }
     for table, label in seeds.items():
         path = _seed_path(table)

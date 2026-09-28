@@ -73,14 +73,20 @@ STATCAN_WDS_BASE = "https://www150.statcan.gc.ca/t1/wds/rest"
 RAG_DOCUMENTS = [
     {
         "key": "ircc_pgwp_eligibility",
-        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html",
+        "url": (
+            "https://www.canada.ca/en/immigration-refugees-citizenship/services/"
+            "study-canada/work/after-graduation/eligibility.html"
+        ),
         "title_en": "Work in Canada after you graduate: eligibility (PGWP)",
         "title_fr": "Travailler au Canada après vos études : admissibilité (PTPD)",
         "kind": "html",
     },
     {
         "key": "ircc_express_entry",
-        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html",
+        "url": (
+            "https://www.canada.ca/en/immigration-refugees-citizenship/services/"
+            "immigrate-canada/express-entry.html"
+        ),
         "title_en": "Express Entry overview",
         "title_fr": "Aperçu d'Entrée express",
         "kind": "html",
