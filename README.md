@@ -5,11 +5,17 @@ Agent conversationnel bilingue (FR/EN) qui croise les **données ouvertes IRCC**
 qualifiés, étudiants PTPD/PGWP et professionnels en reconversion à comprendre leurs
 perspectives d'emploi réelles au Canada.
 
+**🔗 Démo en ligne : [canpath-frontend.onrender.com](https://canpath-frontend.onrender.com/)**
+
+> Le backend est hébergé sur un plan gratuit et se met en veille après 15 minutes
+> d'inactivité — la première réponse après une pause peut prendre ~1 minute le temps
+> qu'il redémarre.
+
 ## Architecture
 
 ```
 IRCC CSV + StatCan WDS + Rapports PDF/HTML
-        ↓  Ingestion (hebdo, GitHub Actions)
+        ↓  Ingestion (manuelle pour l'instant — voir section Déploiement)
 CSV → PostgreSQL          PDF/HTML → chunking → all-MiniLM-L6-v2 → ChromaDB
         ↓
 Agent LangChain (claude-sonnet-4-6)
@@ -68,7 +74,9 @@ python -m app.eval.ragas_eval          # faithfulness, answer relevancy, context
 ```
 
 Les résultats sont écrits dans `data/ragas_results.json`, exposés par `GET /api/stats`
-et affichés dans l'onglet **Qualité (RAGAS)** du frontend.
+et affichés dans l'onglet **Qualité (RAGAS)** du frontend. **Non exécuté à ce jour** —
+tant que ce fichier n'existe pas, le frontend affiche le message de repli plutôt que
+des scores réels.
 
 ## Sources de données (licence ouverte)
 
@@ -88,18 +96,37 @@ remplace au premier run.
 
 ## Déploiement
 
-Le projet n'est pas encore déployé en production. Des workflows GitHub Actions sont prêts
-(`.github/workflows/`) :
+L'app tourne actuellement en production sur une infrastructure 100 % gratuite :
+
+| Composant | Plateforme | Détail |
+|---|---|---|
+| Frontend (React) | [Render](https://render.com) — Static Site | build auto à chaque push sur `main` |
+| Backend (FastAPI) | [Render](https://render.com) — Web Service (Docker) | plan Free, se met en veille après 15 min d'inactivité |
+| Base de données | [Neon](https://neon.tech) — PostgreSQL serverless | palier gratuit, sans expiration |
+| Documents RAG | ChromaDB, embarqué dans l'image Docker (`backend/data/chroma_seed`) | pas de disque persistant sur le plan gratuit, donc l'index est pré-construit et versionné plutôt que reconstruit à chaque déploiement |
+
+Pour mettre à jour les données (nouvelles CSV IRCC/StatCan ou documents RAG), on relance
+localement les commandes d'ingestion contre la base Neon, puis on commit/push le résultat :
+
+```bash
+cd backend
+set DATABASE_URL=<connection string Neon>
+python -m app.ingestion.run_ingestion --csv       # tables PostgreSQL
+
+set CHROMA_PERSIST_DIR=data\chroma_seed
+set EMBEDDING_BACKEND=chroma-onnx
+python -m app.ingestion.run_ingestion --rag       # régénère l'index ChromaDB embarqué
+```
+
+Workflows GitHub Actions disponibles (`.github/workflows/`) :
 
 - `ci.yml` — lint (ruff) + pytest + typecheck/build frontend + build Docker.
-- `data-refresh.yml` — cron hebdomadaire (lundi 06:00 UTC) : IRCC + StatCan + RAG.
-- `deploy-azure.yml` — pipeline de déploiement Azure (backend → ACR + App Service,
-  frontend → Static Web Apps), **non activé** : il faudrait configurer les secrets
-  `AZURE_CREDENTIALS`, `ACR_NAME`, `ACR_LOGIN_SERVER`, `AZURE_WEBAPP_NAME`,
-  `AZURE_STATIC_WEB_APPS_API_TOKEN`, `BACKEND_URL`, `DATABASE_URL` et `ANTHROPIC_API_KEY`
-  pour que ce pipeline s'exécute.
-
-Pour l'instant, l'app tourne en local via Docker (voir ci-dessus).
+- `data-refresh.yml` — cron hebdomadaire (lundi 06:00 UTC) prévu pour automatiser
+  l'ingestion ; **non branché à ce jour** (pas de secret `DATABASE_URL` configuré),
+  la mise à jour se fait donc manuellement pour l'instant (voir ci-dessus).
+- `deploy-azure.yml` — pipeline de déploiement Azure gardé en réserve, déclenchement
+  manuel uniquement (`workflow_dispatch`). Le déploiement réel se fait sur Render/Neon,
+  pas Azure.
 
 ## Notes de conception
 
