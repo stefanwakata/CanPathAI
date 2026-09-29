@@ -15,7 +15,7 @@ perspectives d'emploi réelles au Canada.
 
 ```
 IRCC CSV + StatCan WDS + Rapports PDF/HTML
-        ↓  Ingestion (manuelle pour l'instant — voir section Déploiement)
+        ↓  Ingestion
 CSV → PostgreSQL          PDF/HTML → chunking → all-MiniLM-L6-v2 → ChromaDB
         ↓
 Agent LangChain (claude-sonnet-4-6)
@@ -28,55 +28,6 @@ FastAPI  /api/chat  /api/profile  /api/stats  /api/health
         ↓
 React 18 + TS (chat bilingue, profil, sources cliquables, Plotly inline, dashboard RAGAS)
 ```
-
-## Démarrage rapide (Docker)
-
-```bash
-cp .env.example .env        # ajouter votre ANTHROPIC_API_KEY
-docker compose up --build -d
-docker compose run --rm ingest              # première ingestion (seeds si hors-ligne)
-# UI:  http://localhost:8080   API docs: http://localhost:8000/docs
-```
-
-Sans clé API, l'application démarre et `/api/chat` renvoie 503 ; tout le reste fonctionne.
-
-## Développement local
-
-```bash
-# Backend
-cd backend
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements-dev.txt
-python scripts/make_seeds.py                      # régénérer les seeds si besoin
-DATABASE_URL=sqlite:///dev.db python -m app.ingestion.run_ingestion --csv
-DATABASE_URL=sqlite:///dev.db uvicorn app.main:app --reload
-# UI Streamlit temporaire (Phase 1) :
-streamlit run streamlit_app.py
-
-# Frontend
-cd frontend
-npm install && npm run dev                        # http://localhost:5173 (proxy → :8000)
-```
-
-## Tests
-
-```bash
-cd backend
-pytest tests -v            # suite complète (API, ingestion, RAG, guards)
-python tests/test_pure_logic.py   # sous-ensemble sans dépendances lourdes
-```
-
-## Évaluation RAGAS
-
-```bash
-cd backend
-python -m app.eval.ragas_eval          # faithfulness, answer relevancy, context precision
-```
-
-Les résultats sont écrits dans `data/ragas_results.json`, exposés par `GET /api/stats`
-et affichés dans l'onglet **Qualité (RAGAS)** du frontend. **Non exécuté à ce jour** —
-tant que ce fichier n'existe pas, le frontend affiche le message de repli plutôt que
-des scores réels.
 
 ## Sources de données (licence ouverte)
 
@@ -93,52 +44,6 @@ des scores réels.
 Des **seeds réalistes** (mêmes schémas que les fichiers IRCC) sont embarqués : le produit
 fonctionne hors-ligne et les tests CI n'ont pas besoin du réseau. L'ingestion réelle les
 remplace au premier run.
-
-## Déploiement
-
-L'app tourne actuellement en production sur une infrastructure 100 % gratuite :
-
-| Composant | Plateforme | Détail |
-|---|---|---|
-| Frontend (React) | [Render](https://render.com) — Static Site | build auto à chaque push sur `main` |
-| Backend (FastAPI) | [Render](https://render.com) — Web Service (Docker) | plan Free, se met en veille après 15 min d'inactivité |
-| Base de données | [Neon](https://neon.tech) — PostgreSQL serverless | palier gratuit, sans expiration |
-| Documents RAG | ChromaDB, embarqué dans l'image Docker (`backend/data/chroma_seed`) | pas de disque persistant sur le plan gratuit, donc l'index est pré-construit et versionné plutôt que reconstruit à chaque déploiement |
-
-Pour mettre à jour les données (nouvelles CSV IRCC/StatCan ou documents RAG), on relance
-localement les commandes d'ingestion contre la base Neon, puis on commit/push le résultat :
-
-```bash
-cd backend
-set DATABASE_URL=<connection string Neon>
-python -m app.ingestion.run_ingestion --csv       # tables PostgreSQL
-
-set CHROMA_PERSIST_DIR=data\chroma_seed
-set EMBEDDING_BACKEND=chroma-onnx
-python -m app.ingestion.run_ingestion --rag       # régénère l'index ChromaDB embarqué
-```
-
-Workflows GitHub Actions disponibles (`.github/workflows/`) :
-
-- `ci.yml` — lint (ruff) + pytest + typecheck/build frontend + build Docker.
-- `data-refresh.yml` — cron hebdomadaire (lundi 06:00 UTC) prévu pour automatiser
-  l'ingestion ; **non branché à ce jour** (pas de secret `DATABASE_URL` configuré),
-  la mise à jour se fait donc manuellement pour l'instant (voir ci-dessus).
-- `deploy-azure.yml` — pipeline de déploiement Azure gardé en réserve, déclenchement
-  manuel uniquement (`workflow_dispatch`). Le déploiement réel se fait sur Render/Neon,
-  pas Azure.
-
-## Notes de conception
-
-- **Sécurité SQL** : l'agent n'exécute que des `SELECT` mono-instruction sur des tables
-  allowlistées (`app/agent/sql_guard.py`), `LIMIT 200` forcé.
-- **Citations obligatoires** : chaque tool enregistre ses sources ; si le modèle omet la
-  section Sources, elle est ajoutée automatiquement (`app/agent/citations.py`).
-- **Robustesse ingestion** : détection d'encodage (les CSV IRCC sont servis en binaire
-  UTF-8 BOM/UTF-16), résolution de colonnes par motifs (survit aux dérives de schéma),
-  runs idempotents + table d'audit `ingestion_runs`.
-- **Embeddings** : `all-MiniLM-L6-v2` via sentence-transformers (défaut) ou via l'ONNX
-  intégré de Chroma (`EMBEDDING_BACKEND=chroma-onnx`, sans torch — utilisé en CI).
 
 ## Avertissement
 
