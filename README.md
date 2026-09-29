@@ -5,11 +5,7 @@ Agent conversationnel bilingue (FR/EN) qui croise les **données ouvertes IRCC**
 qualifiés, étudiants PTPD/PGWP et professionnels en reconversion à comprendre leurs
 perspectives d'emploi réelles au Canada.
 
-**🔗 Démo en ligne : [canpath-frontend.onrender.com](https://canpath-frontend.onrender.com/)**
-
-> Le backend est hébergé sur un plan gratuit et se met en veille après 15 minutes
-> d'inactivité — la première réponse après une pause peut prendre ~1 minute le temps
-> qu'il redémarre.
+**Démo en ligne : [canpath-frontend.onrender.com](https://canpath-frontend.onrender.com/)**
 
 ## Architecture
 
@@ -41,9 +37,6 @@ React 18 + TS (chat bilingue, profil, sources cliquables, Plotly inline, dashboa
 | Immigrants sur le marché du travail | StatCan 14-10-0083 (WDS) | CSV → PostgreSQL |
 | Admissibilité PTPD, Entrée express, tendances | Pages IRCC / Guichet-Emplois / analyses StatCan | HTML/PDF → ChromaDB |
 
-Des **seeds réalistes** (mêmes schémas que les fichiers IRCC) sont embarqués : le produit
-fonctionne hors-ligne et les tests CI n'ont pas besoin du réseau. L'ingestion réelle les
-remplace au premier run.
 
 ## Avertissement
 
