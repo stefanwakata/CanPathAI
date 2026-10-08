@@ -56,7 +56,7 @@ def make_tools(tracker: CitationTracker, viz_sink: list[dict[str, Any]], chroma_
             with db_session() as session:
                 result = session.execute(sa_text(clean))
                 cols = list(result.keys())
-                rows = [dict(zip(cols, r)) for r in result.fetchall()]
+                rows = [dict(zip(cols, r, strict=False)) for r in result.fetchall()]
         except Exception as exc:
             return f"SQL error: {exc}"
         # Register sources from returned rows
@@ -76,7 +76,7 @@ def make_tools(tracker: CitationTracker, viz_sink: list[dict[str, Any]], chroma_
         if not docs:
             return "No relevant passages found."
         parts = []
-        for doc, meta in zip(docs, metas):
+        for doc, meta in zip(docs, metas, strict=False):
             title = meta.get("title", "document")
             url = meta.get("url")
             tracker.add(label=title, source=title, url=url)

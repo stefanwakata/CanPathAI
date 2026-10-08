@@ -9,7 +9,7 @@ Usage: python -m app.eval.ragas_eval [--limit N]
 import argparse
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 from app.core.config import get_settings
@@ -28,11 +28,11 @@ def _collect_contexts(question: str, k: int = 4) -> list[str]:
 def run_eval(limit: int | None = None) -> dict:
     from datasets import Dataset
     from langchain_anthropic import ChatAnthropic
-    from ragas import evaluate
-    from ragas.llms import LangchainLLMWrapper
-    from ragas.embeddings import LangchainEmbeddingsWrapper
-    from ragas.metrics import answer_relevancy, context_precision, faithfulness
     from langchain_community.embeddings import HuggingFaceEmbeddings
+    from ragas import evaluate
+    from ragas.embeddings import LangchainEmbeddingsWrapper
+    from ragas.llms import LangchainLLMWrapper
+    from ragas.metrics import answer_relevancy, context_precision, faithfulness
 
     from app.agent.agent import run_agent
 
@@ -63,7 +63,7 @@ def run_eval(limit: int | None = None) -> dict:
     payload = {
         "metrics": metrics,
         "n_questions": len(items),
-        "evaluated_at": datetime.now(timezone.utc).isoformat(),
+        "evaluated_at": datetime.now(UTC).isoformat(),
         "model": settings.anthropic_model,
     }
     out = Path(settings.ragas_results_path)
