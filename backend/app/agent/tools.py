@@ -4,6 +4,7 @@ Each tool registers what it used with the request-scoped CitationTracker so
 citations are enforceable downstream.
 """
 import json
+import re
 from typing import Any
 
 from langchain_core.tools import StructuredTool
@@ -44,6 +45,23 @@ class VizInput(BaseModel):
     title: str = Field("", description="Chart title, in the user's language")
 
 
+_FROM_JOIN_RX = re.compile(r"\b(?:from|join)\s+([a-z_][a-z0-9_]*)", re.IGNORECASE)
+
+
+def _table_sources(sql: str) -> set[str]:
+    """Distinct `source` labels of the allowlisted tables referenced by `sql`."""
+    found: set[str] = set()
+    tables = {m.lower() for m in _FROM_JOIN_RX.findall(sql)} & ALLOWED_TABLES
+    for table in sorted(tables):  # names come from the allowlist, never from user text
+        try:
+            with db_session() as session:
+                res = session.execute(sa_text(f"SELECT DISTINCT source FROM {table} LIMIT 5"))
+                found.update(str(row[0]) for row in res.fetchall() if row[0])
+        except Exception:  # table without a source column (e.g. ingestion_runs)
+            continue
+    return found
+
+
 def make_tools(tracker: CitationTracker, viz_sink: list[dict[str, Any]], chroma_collection=None):
     """Build the 3 tools bound to this request's tracker and viz sink."""
 
@@ -59,8 +77,13 @@ def make_tools(tracker: CitationTracker, viz_sink: list[dict[str, Any]], chroma_
                 rows = [dict(zip(cols, r, strict=False)) for r in result.fetchall()]
         except Exception as exc:
             return f"SQL error: {exc}"
-        # Register sources from returned rows
-        for src in {str(r.get("source")) for r in rows if r.get("source")}:
+        # Register sources from returned rows; if the query didn't select the
+        # `source` column, fall back to the sources of the tables it read from
+        # so citations are registered regardless of how the query was written.
+        sources = {str(r.get("source")) for r in rows if r.get("source")}
+        if rows and not sources:
+            sources = _table_sources(clean)
+        for src in sources:
             tracker.add(label=src.split("—")[0].strip(), source=src,
                         url=src.split("—")[-1].strip() if "—" in src and "http" in src else None)
         if not rows:

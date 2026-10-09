@@ -62,7 +62,7 @@ def test_rag_upsert_idempotent(tmp_path):
     from chromadb.utils.embedding_functions import DefaultEmbeddingFunction
 
     client = chromadb.PersistentClient(path=str(tmp_path))
-    col = client.get_or_create_collection("t", embedding_function=DefaultEmbeddingFunction())
+    col = client.get_or_create_collection("test_col", embedding_function=DefaultEmbeddingFunction())
 
     from app.ingestion.rag_pipeline import upsert_document
 
